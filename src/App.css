@@ -1,0 +1,208 @@
+*{
+  box-sizing: border-box;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+.sidebar{
+  background-color: rgb(0, 7, 61);
+  color: white;
+  height: 120vh;
+}
+.top_section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+.logo{
+  font-size: 18px;
+  line-height: 0;
+}
+.link{
+  color: white;
+  display: flex;
+  gap: 20px;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-right: 4px solid transparent;
+}
+.link:hover{
+  border-right: 4px solid white;
+  /* transition: 0.2s cubic-bezier(0.6,-0.28, 0.735, 0,045); */
+  color: rgb(232, 241, 241);
+  
+  background-color: rgb(45, 51, 89);
+  
+}
+.main-container{
+  display: flex;
+ 
+}
+.tittle{
+  font-size: 30px;
+ 
+}
+#searchbtn{
+  width: 40px;
+}
+#inputbtn{
+  width: 200px;
+}
+#navbgclr{
+  background-color:rgb(45, 51, 89) ;
+  
+}
+
+.clrfafa{
+  color: rgb(23, 75, 187);
+  font-size: 20px;
+}
+.nav-link{
+  color: white;
+}
+.nav-item{
+  color: white;
+}
+.heading1{
+  padding-top: 10px;
+}
+.heading2{
+  padding-top: 18px;
+}
+.dashrow{
+  padding-top: 60px;
+}
+#tbl_back_clr{
+  background-color: rgb(228, 247, 247);
+  
+}
+#hr{
+  width: 850px;
+}
+#table1{
+  overflow: auto;
+  height: 500px;
+}
+#td1{
+  font-weight: bold;
+  font-size: 15px;
+}   
+.aligntxt{
+  text-align: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}   
+.aligntxt1{
+  font-weight: bold;
+  font-size: 40px;
+}    
+#timer{
+  padding-top: 100px;
+  font-weight: bold;
+  color:rgb(62, 71, 132) ;
+} 
+#checkin{
+  color:green;
+}  
+.tabellips{
+  font-size: 20px;
+  /* width: 10px; */
+}        
+.btnbtnbtn{
+  width: 50px;
+}   
+.leftpad{
+  padding-left: 15px;
+}
+.calenderday2{
+  align-items: right;
+  text-align: right;
+}
+.calenderday
+{
+  align-items: right;
+  text-align: right;
+  font-weight: bold;
+}
+.fweight{
+  font-weight: bold;
+}
+.width{
+  width: 100%;
+}
+.conatinerpad{
+  padding-top: 20px;
+ 
+}
+.conatinerpad1{
+ 
+  overflow: scroll;
+  height: 448px;
+}
+
+.conatinerpad4{
+padding-top: 25px;
+
+}
+#divtable{
+  text-align: center;
+  border: 1px solid black;
+}
+#divtable1{
+  text-align: center;
+  border: 1px solid black;
+  background-color: antiquewhite;
+}
+#divtables{
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(175, 183, 229);
+  color: rgb(12, 11, 11);
+  font-weight: bold;
+}
+#divtable_grey{
+  background-color: rgb(62, 71, 132);
+  color: aliceblue;
+  padding-top: 5px;
+  text-align: center;
+}
+#weekend{
+  text-align: center;
+  background-color: antiquewhite;
+}
+#weekend1{
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+}
+#gapInForm{
+  padding-top:10px;
+  font-weight: bold;
+}
+#required{
+  color: red;
+  font-weight: bold;
+}
+
+#height{
+  height: 700px;
+  padding-top: 15px;
+ 
+
+}
+.border{
+  border: 1px;
+}
+#spandate{
+  text-align: center;
+}
+
+#conatiner_padding{
+  padding-top: 20px;
+}
+.conatiner_List_pad{
+  padding-top: 35px;
+}
